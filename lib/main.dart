@@ -5,7 +5,6 @@ import 'package:untitled/presentation/business_logic/booking_cubit.dart';
 import 'package:untitled/presentation/business_logic/login_cubit.dart';
 import 'package:untitled/presentation/business_logic/restaurants_cubit.dart';
 import 'package:untitled/presentation/business_logic/signup_cubit.dart';
-import 'package:untitled/presentation/user_interface/screens/auth_screens/login_screen.dart';
 import 'data/repository/booking_repo.dart';
 import 'data/repository/restaurant_repo.dart';
 import 'data/web_services/booking_api.dart';
@@ -28,7 +27,7 @@ void main() {
         create: (context) => SignupCubit(),
       ),
     ],
-    child: MyApp(),
+    child: const MyApp(),
   ));
 }
 

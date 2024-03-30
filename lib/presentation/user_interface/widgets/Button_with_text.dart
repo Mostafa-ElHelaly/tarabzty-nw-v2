@@ -32,7 +32,7 @@ class CostumTextButton extends StatelessWidget {
             decorationColor: textUnderLineColor,
             backgroundColor: backgroundColor,
             color: textColor,
-            fontFamily: ColorAsset.mainFont,
+            // fontFamily: ColorAsset.mainFont,
             fontSize: textSize),
       ),
     );

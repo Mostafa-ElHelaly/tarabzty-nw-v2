@@ -24,7 +24,7 @@ class TextApp extends StatelessWidget {
       style: TextStyle(
         color: color,
         fontSize: fontSize,
-        fontFamily: ColorAsset.mainFont,
+        // fontFamily: ColorAsset.mainFont,
         fontWeight: fontWeight,
       ),
     );

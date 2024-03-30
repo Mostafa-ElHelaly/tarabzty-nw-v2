@@ -3,7 +3,7 @@ import 'dart:ui';
 
 class ColorAsset{
 
-  static const String mainFont = 'poppins';
+  // static const String mainFont = 'poppins';
   static const Color textColor = Color.fromRGBO(40, 38, 38, 1);
   static const Color logInBgStart = Color.fromRGBO(241, 225, 225, 1);
   static const Color logInBgEnd = Color.fromRGBO(241, 225, 225, 0);

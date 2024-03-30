@@ -67,10 +67,6 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  fonts:
-    - family: Poppins
-      fonts:
-        - asset: assets/fonts/Poppins-SemiBold.ttf
 
   assets:
     - assets/images/

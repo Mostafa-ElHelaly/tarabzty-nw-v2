@@ -128,6 +128,8 @@ class _SignupScreenState extends State<SignupScreen> {
                     text: AssetString.fName,
                     width: AppSize.defaultSize! * 19,
                   ),
+
+
                   ColumnWithFieldText(
                     controller: lastNameController,
                     text: AssetString.lName,
